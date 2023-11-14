@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeShellHub</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-blue">
+        <h1>Terminal codes</h1>
+    </header>
+
+    <section class="container">
+
+        <h3>Git Commands</h3>
+
+        <!-- First-->
+        <p></p>
+        <div class="code" id="gitCommand1">
+          git init
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand1')">Copy</button>
+
+        <!-- Second-->
+        <div class="code" id="gitCommand2">
+          git remote add origin https://github.com/username/your-repository.git
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand2')">Copy</button>
+
+        <!-- Third -->
+        <div class="code" id="gitCommand3">
+          git branch -M main
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand3')">Copy</button>
+
+        <!-- Fourth -->
+        <div class="code" id="gitCommand4">
+          git add .
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand4')">Copy</button>
+
+        <!-- Fifth -->
+        <div class="code" id="gitCommand5">
+          git commit -m "first commit"
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand5')">Copy</button>
+
+        <!-- Sixth -->
+        <div class="code" id="gitCommand6">
+          git push -u origin main
+        </div>
+        <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand6')">Copy</button>
+    </section>
+
+
+    <section class="container">
+
+      <h3>Git Commands to push to the existing repsitory</h3>
+
+      <!-- First-->
+      <div class="code" id="gitCommand1">
+        git init
+      </div>
+      <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand1')">Copy</button>
+
+      <!-- Second-->
+      <div class="code" id="gitCommand2">
+          git add .
+      </div>
+      <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand2')">Copy</button>
+
+      <!-- Third-->
+      <div class="code" id="gitCommand3">
+        git commit -m "Your-message"
+      </div>
+      <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand3')">Copy</button>
+
+
+      <!-- Fourth  -->
+      <div class="code" id="gitCommand4">
+        git push -u origin main
+      </div>
+      <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand4')">Copy</button>
+
+  </section>
+
+
+
+  <footer class="bg-dark text-white">
+      <div class="container">
+          <p>&copy; 2023 Website. All rights reserved.</p>
+      </div>
+  </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

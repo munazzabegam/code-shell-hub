@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #24292e;
+}
+
+header {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+
+
+h1{
+    color: #ffffff;
+}
+
+.code {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 85%;
+}
+
+
+.copy-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+    background-color: #218838;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
