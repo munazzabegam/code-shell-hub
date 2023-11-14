@@ -5,9 +5,9 @@ body {
 }
 
 header {
-    color: white;
     padding: 1em 0;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 section {
@@ -25,6 +25,8 @@ h1{
     color: #ffffff;
 }
 
+
+
 .code {
     background-color: #f1f1f1;
     padding: 15px;
@@ -36,9 +38,10 @@ h1{
 }
 
 
+
 .copy-btn {
-    background-color: #28a745;
-    color: white;
+    background-color: #380606;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 8px 16px;
     text-align: center;
@@ -50,14 +53,18 @@ h1{
     transition: background-color 0.3s;
 }
 
+
 .copy-btn:hover {
-    background-color: #218838;
+    background-color: #cc1212;
 }
 
 
 footer {
-    background-color: #343a40;
-    color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+
+footer p {
+    color: #380606;
 }
