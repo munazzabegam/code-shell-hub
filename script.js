@@ -13,5 +13,5 @@ function copyToClipboard(commandId) {
     textArea.select();
     document.execCommand("Copy");
     document.body.removeChild(textArea);
-    alert("Command copied to clipboard!");
+    // alert("Command copied to clipboard!");
 }

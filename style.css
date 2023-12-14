@@ -26,6 +26,16 @@ h1{
 }
 
 
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0 9px 0;
+    color: #380606;
+    font-weight: 70px;
+    border-bottom: #380606 solid 2px;
+}
+
+
 
 .code {
     background-color: #f1f1f1;
@@ -35,7 +45,13 @@ h1{
     margin-bottom: 15px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     font-size: 85%;
+    margin-top: 15px;
 }
+
+.code p {
+    margin: 0 !important;
+}
+
 
 
 .copy-btn {
@@ -62,10 +78,21 @@ h1{
 
 footer {
     text-align: center;
-    padding: 1em 0;
 }
 
 
 footer p {
     color: #380606;
 }
+
+footer .social-links a {
+    color: #380606;
+    font-size: 0.95rem;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+
+footer .social-links a:hover {
+    color: rgb(240, 206, 138);
+}
+

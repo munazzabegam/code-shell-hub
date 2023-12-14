@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeShellHub</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,41 +18,41 @@
 
     <section class="container">
 
-        <h3>Git Commands</h3>
+        <h2>Git Commands</h2>
 
         <!-- First-->
         <div class="code" id="gitCommand1">
-          git init
+          <p>git init</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand1')">Copy</button>
-
+        
         <!-- Second-->
         <div class="code" id="gitCommand2">
-          git remote add origin https://github.com/<span>username/your-repository.git</span>
+          <p>git remote add origin https://github.com/<span>username/your-repository.git</span></p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand2')">Copy</button>
 
         <!-- Third -->
         <div class="code" id="gitCommand3">
-          git branch -M main
+          <p>git branch -M main</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand3')">Copy</button>
 
         <!-- Fourth -->
         <div class="code" id="gitCommand4">
-          git add .
+          <p>git add .</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand4')">Copy</button>
 
         <!-- Fifth -->
         <div class="code" id="gitCommand5">
-          git commit -m "first commit"
+          <p>git commit -m "first commit"</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand5')">Copy</button>
 
         <!-- Sixth -->
         <div class="code" id="gitCommand6">
-          git push -u origin main
+          <p>git push -u origin main</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand6')">Copy</button>
     </section>
@@ -59,30 +60,30 @@
 
     <section class="container">
 
-      <h3>Git Commands to push to the existing repository</h3>
+      <h2>Git Commands to push to the existing repository</h2>
 
       <!-- First-->
       <div class="code" id="gitCommand7">
-        git init
+        <p>git init</p>
       </div>
       <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand7')">Copy</button>
 
       <!-- Second-->
       <div class="code" id="gitCommand8">
-          git add .
+          <p>git add .</p>
       </div>
       <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand8')">Copy</button>
 
       <!-- Third-->
       <div class="code" id="gitCommand9">
-        git commit -m "Your-message"
+        <p>git commit -m "Your-message"</p>
       </div>
       <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand9')">Copy</button>
 
 
       <!-- Fourth  -->
       <div class="code" id="gitCommand10">
-        git push -u origin main
+        <p>git push -u origin main</p>
       </div>
       <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand10')">Copy</button>
 
@@ -90,8 +91,14 @@
 
   <!-- footer session  -->
   <footer style="background-color: rgb(255, 255, 255);" class="text-white text-center py-4">
-      <div class="container">
+      <div class="foot">
           <p><span style="color: rgb(240, 206, 138);">Mun</span>azza &#169; 2023</p>
+      </div>
+      <div class="social-links">
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        <a href="http://wa.me/+918197458962"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/_.sh_eh_za_di._/"><i class="fa fa-instagram"></i></a>
+        <a href="http://github.com/munazzabegam"><i class="fa fa-github"></i></a>
       </div>
   </footer>
 
