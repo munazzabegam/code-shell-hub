@@ -23,6 +23,7 @@ section {
 
 h1{
     color: #ffffff;
+    font-weight: 600;
 }
 
 
@@ -33,6 +34,8 @@ h2{
     color: #380606;
     font-weight: 70px;
     border-bottom: #380606 solid 2px;
+    font-weight: 550;
+    font-size: 30px;
 }
 
 
@@ -82,7 +85,7 @@ footer {
 
 
 footer p {
-    color: #380606;
+    color: #380606;font-weight: 550;
 }
 
 footer .social-links a {
