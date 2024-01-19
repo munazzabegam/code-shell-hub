@@ -18,7 +18,7 @@
 
     <section class="container">
 
-        <h2>Git Commands</h2>
+        <h2>Git Commands to push to the new remote repository</h2>
 
         <!-- First-->
         <div class="code" id="gitCommand1">
@@ -28,7 +28,7 @@
         
         <!-- Second-->
         <div class="code" id="gitCommand2">
-          <p>git remote add origin https://github.com/<span>username/your-repository.git</span></p>
+          <p>git remote add origin https://github.com/<span style="color: grey">username</span>/<span style="color: grey;">your-repository</span>.git</p>
         </div>
         <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand2')">Copy</button>
 
@@ -89,17 +89,36 @@
 
   </section>
 
+
+  <section class="container">
+
+    <h2>Git Commands to fetch the updates from the repository</h2>
+
+    <div class="code" id="gitCommand11">
+      <p>git fetch</p>
+    </div>
+    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand11')">Copy</button>
+
+    <div class="code" id="gitCommand12">
+      <p>git merge</p>
+    </div>
+    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand12')">Copy</button>
+
+  </section>
+
+
+
   <section class="container">
 
     <h2>Unix Commands to update Chrome</h2>
 
-    <div class="code" id="gitCommand11">
+    <div class="code" id="gitCommand13">
       <p><span style="color: grey;"># Update the package list</span><br>
         sudo apt update <br>
         <span style="color: grey;"># Upgrade Chrome to the latest version</span><br>
         sudo apt upgrade google-chrome-stable</p>
     </div>
-    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand11')">Copy</button>
+    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand13')">Copy</button>
 
   </section>
 
@@ -108,14 +127,17 @@
 
     <h2>Unix Commands for software update</h2>
 
-    <div class="code" id="gitCommand12">
+    <div class="code" id="gitCommand14">
       <p>sudo apt update<br>
         sudo apt upgrade
         </p>
     </div>
-    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand12')">Copy</button>
+    <button class="btn btn-success copy-btn" onclick="copyToClipboard('gitCommand14')">Copy</button>
 
   </section>
+
+
+
 
   <!-- footer session  -->
   <footer style="background-color: rgb(255, 255, 255);" class="text-white text-center py-4">
