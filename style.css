@@ -35,7 +35,7 @@ h2{
     font-weight: 70px;
     border-bottom: #380606 solid 2px;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 
@@ -53,6 +53,7 @@ h2{
 
 .code p {
     margin: 0 !important;
+    font-size: 15px;
 }
 
 
